@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Just Maths"
+        android:textColor="#A37063"
+        android:textSize="50sp"/>
+
+
+    <ImageButton
+        android:id="@+id/imagebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/bbaseline_share_white_36dp"
+        android:background="#ba160c"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/baseline_play_arrow_white_36dp"
+        android:background="#ba160c"/>
+
+    <ImageButton
+        android:id="@+id/imagebutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/baseline_star_white_36dp"
+        android:background="#ba160c"/>
+
+
+</RelativeLayout>
+
+
+
+
+
